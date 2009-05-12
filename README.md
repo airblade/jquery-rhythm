@@ -3,7 +3,7 @@
 Fit images to the vertical baseline rhythm without distortion.
 
 We find the height of every image and the nearest baseline.
-We replace the image with a <div/> whose background image is
+We replace the image with a `<div/>` whose background image is
 the original image, and whose height is rounded up or down to
 the nearest baseline.
 
