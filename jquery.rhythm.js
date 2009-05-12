@@ -45,12 +45,12 @@
         'margin-right':  img_margin_right,
         'margin-bottom': body_line_height_em + 'em',
         'margin-left':   img_margin_left,
-        'background':    'transparent url(' + img_src + ') no-repeat center ' + opts['vertical_align']});
+        'background':    'transparent url(' + img_src + ') no-repeat center ' + opts['verticalAlign']});
       $(this).replaceWith(div);
     });
   };
 
   $.fn.rhythm.defaults = {
-    vertical_align: 'top'
+    verticalAlign: 'top'
   };
 })(jQuery);
