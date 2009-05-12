@@ -44,7 +44,12 @@ have their properties set.  So we use browser detection.
 
 You can use these options:
 
-* **`vertical_align`**: How to align the image when it is set as a background.
+* **`verticalAlign`**: How to align the image when it is set as a background.
+
+You can either pass these options on a case by case basis in each call to `rhythm`
+or you can set the defaults once like this:
+
+    $.fn.rhythm.defaults.verticalAlign = 'center';
 
 
 ## Requirements
