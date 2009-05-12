@@ -44,7 +44,7 @@ have their properties set.  So we use browser detection.
 
 You can use these options:
 
-* **`verticalAlign`**: How to align the image when it is set as a background.
+* **`verticalAlign`**: how to align the image when it is set as a background (defaults is 'top').
 
 You can either pass these options on a case by case basis in each call to `rhythm`
 or you can set the defaults once like this:
